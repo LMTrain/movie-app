@@ -61,13 +61,13 @@ const Home = () => (
         </ol>
         <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
-            <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide" />
+            <img className="d-block img-fluid" src="https://lmtrain.github.io/lm-images/assets/images/bugatti_2.jpg" alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide" />
+            <img className="d-block img-fluid" src="https://lmtrain.github.io/lm-images/assets/images/mydejavuredcar.jpg" alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide" />
+            <img className="d-block img-fluid" src="https://lmtrain.github.io/lm-images/assets/images/futurecar9.jpg" alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
