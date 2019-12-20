@@ -10,8 +10,11 @@ import { getMovies } from '../actions/index';
 
 
 const Home = () => {
+  const [movies, setMovies] = useState([])
 
-  const movies = getMovies()
+  getMovies().then((movies) => {
+    setMovies(movies)
+  })
 
   return (
     <div>
