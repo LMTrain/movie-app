@@ -19,6 +19,18 @@ const Carousel = () => {
               <div className="carousel-item">
                 <img className="d-block img-fluid" src="https://lmtrain.github.io/lm-images/assets/images/futurecar9.jpg" alt="Third slide" />
               </div>
+              <div className="carousel-item">
+                <img className="d-block img-fluid" src="https://lmtrain.github.io/lm-images/assets/images/futurecar18.jpg" alt="Third slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="d-block img-fluid" src="https://lmtrain.github.io/lm-images/assets/images/mybmwm6.jpg" alt="Third slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="d-block img-fluid" src="https://lmtrain.github.io/lm-images/assets/images/bugatti_la_voiture%20noire_up.jpg" alt="Third slide" />
+              </div>
+              <div className="carousel-item">
+                <img className="d-block img-fluid" src="https://lmtrain.github.io/lm-images/assets/images/bugatti_chiron%20sport2.jpg" alt="Third slide" />
+              </div>
             </div>
             <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
