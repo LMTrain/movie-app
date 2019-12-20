@@ -32,6 +32,14 @@ class MovieList extends React.Component {
     //     })
     // }
 
+    
+    shortenDescription = (text) => {
+        if (text && text.length > 200) {
+            return text.substr(0, 200) + '...'
+        }
+        return text
+    }
+
     renderMovies() {
         const { movieList}  = this.props
 
@@ -44,7 +52,7 @@ class MovieList extends React.Component {
                             <h4 className="card-title">
                                 <a href={movie.image}>{movie.name}</a>
                             </h4>                                    
-                            <p className="card-text">{movie.description}</p>
+                            <p className="card-text">{this.shortenDescription(movie.description)}</p>
                         </div>
                         <div className="card-footer">
                             <small className="text-muted">{movie.rating}</small>
