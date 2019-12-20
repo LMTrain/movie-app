@@ -6,39 +6,41 @@ class MovieList extends React.Component {
     //     count: 0
     // }
 
-    constructor(props) {
-        super(props)
-        this.state = {
-            count: 0
-        }
-    }
+    // constructor(props) {
+    //     super(props)
+    //     this.state = {
+    //         count: 0
+    //     }
+    //     // this.increment = this.increment.bind(this)
+    // }
 
-    increment = () => {
-        // const count = this.state.count
-        const { count } = this.state
+    // increment = () => {
+    //     // const count = this.state.count
+    //     const { count } = this.state
 
-        //VERY BAD
-        //this.state.count = count + 1
-        this.setState({
-            count: count + 1
-        })
-    }
+    //     //VERY BAD
+    //     //this.state.count = count + 1
+    //     this.setState({
+    //         count: count + 1
+    //     })
+    // }
 
-    decrement = () => {
-        const { count } = this.state       
-        this.setState({
-            count: count - 1
-        })
-    }
+    // decrement = () => {
+    //     const { count } = this.state       
+    //     this.setState({
+    //         count: count - 1
+    //     })
+    // }
 
 
     render() {
         return (
             <>
                 <div>
-                    <button onClick={this.increment} className="btn btn-primary">Increment Number</button>
-                    <button onClick={this.decrement}className="btn btn-primary">Decrement Number</button>
-                    <h1>{this.state.count}</h1>
+                    {/* <button onClick={() => this.increment()} className="btn btn-primary">Increment Number</button> */}
+                    {/* <button onClick={this.increment} className="btn btn-primary">Increment Number</button>
+                    <button onClick={this.decrement}className="btn btn-primary">Decrement Number</button> */}
+                    <h1>{this.props.movieListCount}</h1>
                 </div>
 
                 <div className="col-lg-4 col-md-6 mb-4">
