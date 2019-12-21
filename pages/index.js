@@ -23,8 +23,7 @@ const Home = (props) => {
 
       <Navbar />
       <div className="home-page">
-        <div className="container">
-          <button onClick={() => setCount(count)}>Click ME!</button>
+        <div className="container">          
           <div className="row">
             <div className="col-lg-3">
               <SideMenu
