@@ -7,9 +7,18 @@ import Footer from '../components/footer';
 class MovieApp extends App {
 
     // TODO: execute here getInitialProps and pass this data to page
+
+    static async getInitialProps(appContext) {
+        //Executing getInitialProps of page you are navigated to
+        console.log('Calling getInitalProps from _app')
+        const appProps = await App.getInitialProps(appContext)
+
+        console.log(appProps)
+        return { ...appProps }
+    }
     render() {
         //Component holds pages you are navigating to
-        const { Component } = this.props
+        const { Component, pageProps } = this.props
 
         return (
             <div>
@@ -22,7 +31,7 @@ class MovieApp extends App {
                 </Head>
                 <Navbar />
                 <div className="base-page">
-                    <Component />
+                    <Component {...pageProps} />
                 </div>
                 <Footer /> 
                 <style jsx>{`
