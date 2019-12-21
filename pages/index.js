@@ -79,7 +79,8 @@ class Home extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      movies: []
+      movies: [],
+      errorMessage: ''
     }
   }
   
@@ -94,14 +95,18 @@ class Home extends React.Component {
   // }
 
   componentDidMount() {
-    getMovies().then((movies) => {
-      this.setState({movies})
-    })
+    getMovies()
+      .then((movies) => {
+        this.setState({movies})
+      })
+      .catch((error) => {
+        this.setState({errorMessage: error})
+      })
   }
 
 
   render() {
-    const { movies } = this.state
+    const { movies, errorMessage } = this.state
     return (
       <div>
         <Head>
@@ -120,11 +125,15 @@ class Home extends React.Component {
                 <SideMenu
                   appName={"Movie DB"}                 
                 />
-              </div>
-  
+              </div>  
               <div className="col-lg-9">
                 <Carousel />
                 <div className="row">
+                  { errorMessage && 
+                  <div className="alert alert-danger" role="alert">
+                    { errorMessage }
+                  </div>
+                  }
                   <MovieList
                     movieList={movies}
                   />           
