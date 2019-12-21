@@ -32,6 +32,6 @@ const MOVIE_DATA = [
         return new Promise((resolve, reject) => {
             setTimeout(() => {
                 resolve(MOVIE_DATA)
-            }, 2000)
+            }, 100)
         })
     }
