@@ -28,11 +28,20 @@ const MOVIE_DATA = [
     }
   ]
 
-    export const getMovies = () => {
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-              resolve(MOVIE_DATA)
-              // reject('Cannot fetch data!')
-            }, 100)
-        })
-    }
+  export const getMovies = () => {
+      return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve(MOVIE_DATA)
+            // reject('Cannot fetch data!')
+          }, 100)
+      })
+  }
+
+  export const getMovieById = (id) => {
+
+    return new Promise((resolve, reject) => {
+      const movieIndex = MOVIE_DATA.findIndex(m => m.id === id)
+      const movie = MOVIE_DATA[movieIndex]
+      setTimeout(() => resolve(movie), 50)
+    })
+  }
