@@ -64,6 +64,13 @@ class MovieList extends React.Component {
                             {/* <small className="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small> */}
                         </div>
                     </div>
+                    <style jsx>{`
+                    .card-img-top {
+                        max-height: 120px;
+                    }
+                    
+                    `}
+                </style>   
                 </div>               
             )
         )    
