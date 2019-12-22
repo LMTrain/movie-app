@@ -3,12 +3,12 @@ import SideMenu from '../components/sideMenu';
 import Carousel from '../components/carousel';
 import MovieList from '../components/movieList';
 
-import { getMovies } from '../actions/index';
+import { getMovies, getCategories } from '../actions/index';
 
 
 const Home = (props) => {
 
-  const images = props.images
+  const { images, categories, movies } = props
   return (
     <div>   
       <div className="home-page">
@@ -16,6 +16,7 @@ const Home = (props) => {
           <div className="row">
             <div className="col-lg-3">
               <SideMenu
+                categories={categories}
                 appName={"Movie DB"}
                 // clickHandler={() => {console.log("Hello World")}}
                 // sideMenuCount={count}
@@ -27,7 +28,7 @@ const Home = (props) => {
               <div className="row">
                 <MovieList 
                   // movieListCount={count}
-                  movieList={props.movies || []}
+                  movieList={movies || []}
                 />           
               </div>
             </div>
@@ -41,6 +42,7 @@ const Home = (props) => {
 
 Home.getInitialProps = async () => {
   const movies = await getMovies()
+  const categories = await getCategories()
   const images = movies.map((movie) => {
     return {
       id: `image-${movie.id}`,
@@ -51,7 +53,8 @@ Home.getInitialProps = async () => {
 })
     return {
       movies,
-      images
+      images,
+      categories
     }
 }
 
