@@ -4,11 +4,14 @@ import { useState } from 'react'
 
 
 const MovieCreateForm = (props) => {
-    
-    //Fix uncntrolled data!
+ 
     const [form, setForm] = useState({
-        name: 'Some Movie',
-        description: 'Some Description'
+        name: '',
+        description: '',
+        rating: '',
+        image: '',
+        cover: '',
+        longDesc: ''
     })
 
     const handleChange = (event) => {
@@ -107,6 +110,7 @@ const MovieCreateForm = (props) => {
             <div className="form-group">
                 <label for="longDesc">Long Description</label>
                 <textarea
+                    onChange={handleChange}
                     value={form.longDesc}
                     name="longDesc"
                     className="form-control" 
