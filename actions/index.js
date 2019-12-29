@@ -53,10 +53,5 @@ const BASE_URL = 'http://localhost:3000'
   }
 
   export const getMovieById = (id) => {
-
-    return new Promise((resolve, reject) => {
-      const movieIndex = MOVIE_DATA.findIndex(m => m.id === id)
-      const movie = MOVIE_DATA[movieIndex]
-      setTimeout(() => resolve(movie), 50)
-    })
+    return axios.get(`${BASE_URL}/api/v1/movies/${id}`).then(res => res.data)   
   }
