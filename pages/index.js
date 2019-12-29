@@ -41,7 +41,7 @@ const Home = (props) => {
 
 
 Home.getInitialProps = async () => {
-  const movies = await getMovies()
+  const movies = await getMovies() // array of movies
   const categories = await getCategories()
   const images = movies.map((movie) => {
     return {
