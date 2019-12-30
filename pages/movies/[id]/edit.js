@@ -14,10 +14,8 @@ class EditMovie extends React.Component {
     }
 
     handleUpdateMovie = (movie) => {
-        updateMovie(movie).then((updatedMovie) => {          
-            // console.log(JSON.stringify(movies))       
-            // router.push('/')
-            Router.push(`/movies/${movie.id}`)
+        updateMovie(movie).then((updatedMovie) => {       
+            Router.push('/movies/[id]', `/movies/${movie.id}`)
         })
     }
 
@@ -48,6 +46,7 @@ class EditMovie extends React.Component {
                 {/* { JSON.stringify(movie)}                 */}
                 <MovieCreateForm
                     submitButton="Update"
+                    cancelButton="Cancel"
                     initialData={movie}
                     handleFormSubmit={this.handleUpdateMovie} />
             </div>

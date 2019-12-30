@@ -151,6 +151,11 @@ const MovieCreateForm = (props) => {
                 className="btn btn-primary">
                     { props.submitButton || 'Create' }
             </button>
+            <button
+                type="botton"
+                className="btn btn-primary ml-2">
+                    {props.cancelButton || 'Cancel'}
+            </button>
         </form>
     )
 }
