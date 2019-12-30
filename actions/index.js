@@ -40,18 +40,18 @@ const BASE_URL = 'http://localhost:3000'
   }
 
   export const createMovie = (movie) => {
-    return new Promise((resolve, reject) => {
-      //Create ID for movie
-
-      movie.id = Math.random().toString(36).substr(2,7)
-      MOVIE_DATA.push(movie)
-        setTimeout(() => {
-          resolve(MOVIE_DATA)
-          // reject('Cannot fetch data!')
-        }, 100)
-    })
+    movie.id = Math.random().toString(36).substr(2, 5)
+    return axios.post(`${BASE_URL}/api/v1/movies`, movie)
+      .then((res) => {
+      // console.log(res)
+        return res.data
+      })
   }
 
   export const getMovieById = (id) => {
     return axios.get(`${BASE_URL}/api/v1/movies/${id}`).then(res => res.data)   
+  }
+
+  export const deleteMovie = (id) => {
+    return axios.delete(`${BASE_URL}/api/v1/movies/${id}`).then(res => res.data)
   }
