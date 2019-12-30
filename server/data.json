@@ -74,5 +74,45 @@
     "longDesc": "This is fun, seeing all these cars racing in the desert and dusting one another. Fun movie!!!!",
     "genre": "music,adventure,action",
     "id": "9ulai"
+  },
+  {
+    "name": "Future cars",
+    "description": "Future cars in action",
+    "rating": "5",
+    "image": "https://lmtrain.github.io/lm-images/assets/images/futurecar11.jpg",
+    "cover": "https://lmtrain.github.io/lm-images/assets/images/futurecar10.jpg",
+    "longDesc": "Future cars are really the big deals. Saving energy, especially the electric cars.",
+    "genre": "music,adventure",
+    "id": "wpk08"
+  },
+  {
+    "name": "Waterfalls",
+    "description": "Waterfalls in the desert",
+    "rating": "4",
+    "image": "https://lmtrain.github.io/lm-images/assets/images/ls_field-wf5.jpg",
+    "cover": "https://lmtrain.github.io/lm-images/assets/images/ls_field-cnn.jpg",
+    "longDesc": "Waterfalls everywhere!!!",
+    "genre": "adventure",
+    "id": "yjx12"
+  },
+  {
+    "name": "Life of a Book",
+    "description": "If books can talk",
+    "rating": "2",
+    "image": "https://lmtrain.github.io/lm-images/assets/images/books7.jpg",
+    "cover": "https://lmtrain.github.io/lm-images/assets/images/books8.jpeg",
+    "longDesc": "This movie shows how books respond to their readers.",
+    "genre": "drama",
+    "id": "5gmm8"
+  },
+  {
+    "name": "More Books",
+    "description": "More Books, is a continuation of book",
+    "rating": "4",
+    "image": "https://lmtrain.github.io/lm-images/assets/images/books3.jpg",
+    "cover": "https://lmtrain.github.io/lm-images/assets/images/books1.jpg",
+    "longDesc": "More Books, is a continuation of book. thats right, it also has more improvements.",
+    "genre": "drama,music",
+    "id": "5lalv"
   }
 ]

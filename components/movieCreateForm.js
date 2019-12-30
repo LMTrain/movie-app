@@ -1,18 +1,32 @@
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 
 
 const MovieCreateForm = (props) => {
- 
-    const [form, setForm] = useState({
+    console.log(props)
+    
+    const [ isInitialDataLoaded, setIsInitialDataLoaded] = useState(false)
+
+    const defaultData = {
         name: '',
         description: '',
         rating: '',
         image: '',
         cover: '',
         longDesc: ''
-    })
+    }
+    const formData = props.initialData ? {...props.initialData} : defaultData
+
+    const [form, setForm] = useState(formData)
+
+    // useEffect(() => {
+    //     if (props.initialData) {
+    //         console.log("THIS IS THE INITIAL PROPS", props)
+    //         setForm(props.initialData)
+    //         setIsInitialDataLoaded(true)
+    //     }
+    // }, [isInitialDataLoaded])
 
     const handleChange = (event) => {
         const target = event.target
