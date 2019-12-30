@@ -64,5 +64,15 @@
     "genre": "adventure, drama, fantasy",
     "cover": "https://images.unsplash.com/photo-1484669970465-b0c50d7f6964?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80",
     "image": "https://images.unsplash.com/photo-1484669970465-b0c50d7f6964?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
+  },
+  {
+    "name": "Desert Storm",
+    "description": "Racing Renault cars in the desert",
+    "rating": "5",
+    "image": "https://lmtrain.github.io/lm-images/assets/images/futurecar8.jpg",
+    "cover": "https://lmtrain.github.io/lm-images/assets/images/futurecar10.jpg",
+    "longDesc": "This is fun, seeing all these cars racing in the desert and dusting one another. Fun movie!!!!",
+    "genre": "music,adventure,action",
+    "id": "9ulai"
   }
 ]
