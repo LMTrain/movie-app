@@ -5,10 +5,11 @@ const BASE_URL = 'http://localhost:3000'
   const MOVIE_DATA = []
 
   const CATEGORY_DATA = [
-    {ID: 'c-1', name: 'drama'},
-    {ID: 'c-2', name: 'action'},
-    {ID: 'c-3', name: 'adventure'},
-    {ID: 'c-4', name: 'historical'},
+    {ID: 'c-0', name: 'All'},
+    {ID: 'c-1', name: 'Drama'},
+    {ID: 'c-2', name: 'Action'},
+    {ID: 'c-3', name: 'Adventure'},
+    {ID: 'c-4', name: 'Historical'},
   ]
 
   //1. getCategories function

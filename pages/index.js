@@ -9,11 +9,21 @@ import { getMovies, getCategories } from '../actions/index';
 const Home = (props) => {
 
   const { images, categories, movies } = props
-  const [ filter, setFilter ] = useState('')
+  const [ filter, setFilter ] = useState('all')
 
   const changeCategory = category => {
     // alert(`Changing to category of: ${category}`)
     setFilter(category)
+  }
+
+  const filterMovies = movies => {
+    if (filter === 'all') {
+      return movies
+    }
+
+    return movies.filter((m) => {
+      return m.genre && m.genre.includes(filter)
+    })
   }
 
   return (
@@ -38,7 +48,7 @@ const Home = (props) => {
               <div className="row">
                 <MovieList 
                   // movieListCount={count}
-                  movieList={movies || []}
+                  movieList={filterMovies(movies) || []}
                 />           
               </div>
             </div>

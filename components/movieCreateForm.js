@@ -138,11 +138,11 @@ const MovieCreateForm = (props) => {
                     multiple 
                     className="form-control" 
                     id="genre">
-                <option>drama</option>
-                <option>music</option>
-                <option>adventure</option>
-                <option>historical</option>
-                <option>action</option>
+                <option>Drama</option>
+                <option>Music</option>
+                <option>Adventure</option>
+                <option>Historical</option>
+                <option>Action</option>
                 </select>
             </div>
             <button
