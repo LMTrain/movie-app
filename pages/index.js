@@ -9,6 +9,13 @@ import { getMovies, getCategories } from '../actions/index';
 const Home = (props) => {
 
   const { images, categories, movies } = props
+  const [ filter, setFilter ] = useState('')
+
+  const changeCategory = category => {
+    // alert(`Changing to category of: ${category}`)
+    setFilter(category)
+  }
+
   return (
     <div>   
       <div className="home-page">
@@ -16,6 +23,8 @@ const Home = (props) => {
           <div className="row">
             <div className="col-lg-3">
               <SideMenu
+                changeCategory={changeCategory}
+                activeCategory={filter}
                 categories={categories}
                 appName={"Movie DB"}
                 // clickHandler={() => {console.log("Hello World")}}
@@ -25,6 +34,7 @@ const Home = (props) => {
 
             <div className="col-lg-9">
               <Carousel images={images} />
+              <h1>Displaying {filter} movies</h1>
               <div className="row">
                 <MovieList 
                   // movieListCount={count}

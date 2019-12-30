@@ -14,7 +14,8 @@ const Movie = (props) => {
             //Handle "then" later
             router.push('/')
         })
-    }
+    }    
+
     return (
         <div className="container">
             <div className="jumbotron">
