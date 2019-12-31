@@ -39,8 +39,7 @@ class MovieApp extends App {
                 <style jsx>{`
                     .base-page {
                         padding-top: 90px;
-                        padding-bottom: 200px;
-                        min-height: 60px;
+                        padding-bottom: 200px;                       
                     }
                     
                     `}
