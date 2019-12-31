@@ -21,7 +21,7 @@ class Modal extends React.Component {
     render() {
         return (
             <>
-                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                <button type="button" className="btn btn-primary mt-2" data-toggle="modal" data-target="#exampleModal">
                     Create Movie
                 </button>
     

@@ -6,7 +6,7 @@
     "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
     "longDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque non nobis, impedit veritatis quia, consectetur velit ea error ducimus totam ipsam, nisi dolorem voluptatum ut perspiciatis ex quidem nesciunt assumenda.",
     "rating": 4.8,
-    "genre": "drama",
+    "genre": "Drama,Adventure",
     "cover": "https://images.unsplash.com/photo-1507924538820-ede94a04019d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     "image": "https://m.media-amazon.com/images/M/MV5BNjQ2NDA3MDcxMF5BMl5BanBnXkFtZTgwMjE5NTU0NzE@._V1_CR0,60,640,360_AL_UX477_CR0,0,477,268_AL_.jpg"
   },
@@ -17,7 +17,7 @@
     "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
     "longDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad itaque excepturi dignissimos laudantium obcaecati quam blanditiis earum veniam, dicta, velit, quo tenetur dolore ducimus repellat neque, architecto magni in cum.",
     "rating": 4.7,
-    "genre": "action, crime, drama",
+    "genre": "Action,Crime",
     "cover": "https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80",
     "image": "https://img.cinemablend.com/filter:scale/quill/c/3/8/0/f/4/c380f4f12cfeec19f0c40c6f57db188f2f98cca8.jpg?mw=600"
   },
@@ -28,7 +28,7 @@
     "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
     "longDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, beatae aliquid excepturi! Distinctio temporibus modi eos in facere eum, eligendi incidunt? Eligendi, ea, explicabo. Repellat laboriosam suscipit natus totam dolores?",
     "rating": 4.9,
-    "genre": "adventure, drama, fantasy",
+    "genre": "Adventure,Drama,Fantacy",
     "cover": "https://images.unsplash.com/photo-1462759353907-b2ea5ebd72e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2389&q=80",
     "image": "https://img.cinemablend.com/filter:scale/quill/0/f/5/2/a/6/0f52a6843a25c1a5c1f9a0c00548cad9e1d912e2.jpg?mw=600"
   },
@@ -39,7 +39,7 @@
     "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
     "longDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque non nobis, impedit veritatis quia, consectetur velit ea error ducimus totam ipsam, nisi dolorem voluptatum ut perspiciatis ex quidem nesciunt assumenda.",
     "rating": 4.8,
-    "genre": "adventure, drama, fantasy",
+    "genre": "Drama,Historical",
     "cover": "https://lmtrain.github.io/lm-images/assets/images/ls_daylight.jpg",
     "image": "https://lmtrain.github.io/lm-images/assets/images/ls_daylight.jpg"
   },
@@ -50,7 +50,7 @@
     "description": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
     "longDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad itaque excepturi dignissimos laudantium obcaecati quam blanditiis earum veniam, dicta, velit, quo tenetur dolore ducimus repellat neque, architecto magni in cum.",
     "rating": 4.7,
-    "genre": "action, crime, drama",
+    "genre": "Action,Drama,Music",
     "cover": "https://images.unsplash.com/photo-1541223847275-42da9d14ae22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=829&q=80",
     "image": "https://images.unsplash.com/photo-1541223847275-42da9d14ae22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=829&q=80"
   },
@@ -61,7 +61,7 @@
     "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
     "longDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, beatae aliquid excepturi! Distinctio temporibus modi eos in facere eum, eligendi incidunt? Eligendi, ea, explicabo. Repellat laboriosam suscipit natus totam dolores?",
     "rating": 4.9,
-    "genre": "adventure, drama, fantasy",
+    "genre": "Action,Crime,Music",
     "cover": "https://images.unsplash.com/photo-1484669970465-b0c50d7f6964?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80",
     "image": "https://images.unsplash.com/photo-1484669970465-b0c50d7f6964?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
   },
@@ -72,7 +72,7 @@
     "image": "https://lmtrain.github.io/lm-images/assets/images/futurecar8.jpg",
     "cover": "https://lmtrain.github.io/lm-images/assets/images/futurecar8.jpg",
     "longDesc": "This is fun, seeing all these cars racing in the desert and dusting one another. Fun movie!!!!",
-    "genre": "music,adventure,action",
+    "genre": "Action,Fantacy,Historical",
     "id": "9ulai"
   },
   {
@@ -82,7 +82,7 @@
     "image": "https://lmtrain.github.io/lm-images/assets/images/futurecar11.jpg",
     "cover": "https://lmtrain.github.io/lm-images/assets/images/futurecar11.jpg",
     "longDesc": "Future cars are really the big deals. Saving energy, especially the electric cars.",
-    "genre": "music,adventure",
+    "genre": "Action,Adventure",
     "id": "wpk08"
   },
   {
@@ -92,7 +92,7 @@
     "image": "https://lmtrain.github.io/lm-images/assets/images/ls_field-cnn.jpg",
     "cover": "https://lmtrain.github.io/lm-images/assets/images/ls_field-cnn.jpg",
     "longDesc": "Waterfalls everywhere!!!",
-    "genre": "adventure",
+    "genre": "Drama,Historical",
     "id": "yjx12"
   },
   {
@@ -102,7 +102,7 @@
     "image": "https://lmtrain.github.io/lm-images/assets/images/books8.jpeg",
     "cover": "https://lmtrain.github.io/lm-images/assets/images/books7.jpg",
     "longDesc": "This movie shows how books respond to their readers.",
-    "genre": "drama,adventure",
+    "genre": "Drama,Fantacy",
     "id": "5gmm8"
   },
   {
@@ -112,7 +112,7 @@
     "image": "https://lmtrain.github.io/lm-images/assets/images/books1.jpg",
     "cover": "https://lmtrain.github.io/lm-images/assets/images/books3.jpg",
     "longDesc": "More Books, is a continuation of book. thats right, it also has more improvements.",
-    "genre": "adventure,historical",
+    "genre": "Drama,Fantacy",
     "id": "5lalv"
   }
 ]

@@ -9,7 +9,7 @@ import { getMovies, getCategories } from '../actions/index';
 const Home = (props) => {
 
   const { images, categories, movies } = props
-  const [ filter, setFilter ] = useState('all')
+  const [ filter, setFilter ] = useState('All')
 
   const changeCategory = category => {
     // alert(`Changing to category of: ${category}`)
@@ -17,7 +17,7 @@ const Home = (props) => {
   }
 
   const filterMovies = movies => {
-    if (filter === 'all') {
+    if (filter === 'All') {
       return movies
     }
 
@@ -44,7 +44,7 @@ const Home = (props) => {
 
             <div className="col-lg-9">
               <Carousel images={images} />
-              <h1>Displaying {filter} movies</h1>
+              <h4>{filter} Movies</h4>
               <div className="row">
                 <MovieList 
                   // movieListCount={count}

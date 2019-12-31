@@ -36,12 +36,9 @@ const SideMenu = (props) => {
     }
 
     return (
-        <div>
-            <Modal ref={ele => modal = ele } hasSubmit={false}>
-                <MovieCreateForm handleFormSubmit={handleCreateMovie} />
-            </Modal>
-            <h1 className="my-4">{props.appName}</h1>
-            <div className="list-group">
+        <div>            
+            {/* <h4 className="my-4">{props.appName}</h4> */}
+            <div className="list-group mt-2">
                 { categories.map(c =>
                     <a
                         onClick={() => props.changeCategory(c.name)}
@@ -51,6 +48,9 @@ const SideMenu = (props) => {
                     )
                 }                
             </div>
+            <Modal ref={ele => modal = ele } hasSubmit={false}>
+                <MovieCreateForm handleFormSubmit={handleCreateMovie} />
+            </Modal>
             {/* <div>              
                 <h1>{props.sideMenuCount}</h1>
             </div> */}
