@@ -13,7 +13,7 @@ class Posts extends React.Component {
 
     render() {
         const {posts } = this.props
-        console.log(posts)
+        // console.log(posts)
         return (
             <div className="container">
                 <h1>I am posts page</h1>

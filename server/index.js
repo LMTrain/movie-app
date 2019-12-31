@@ -96,16 +96,22 @@ app.prepare().then(() => {
 
   // we are handling all of the request comming to our server
   //This is our ENDPOINT for --server.get--- for all ('*')
-  server.get('*', (req, res) => {
-    // next.js is handling requests and providing pages where we are navigating to
-    return handle(req, res)
-    // return res.json({message: 'Welcom to my website'})
-  })
+  // server.get('*', (req, res) => {
+  //   // next.js is handling requests and providing pages where we are navigating to
+  //   return handle(req, res)
+  //   // return res.json({message: 'Welcom to my website'})
+  // })
+
+  // server.post('*', (req, res) => {
+  //   // next.js is handling requests and providing pages where we are navigating to
+  //   return handle(req, res)
+  //   // return res.json({message: 'Welcom to my website'})
+  // })
 
 
   const PORT = process.env.PORT || 3000;
 
-  server.listen(PORT, (err) => {
+  server.use(handle).listen(PORT, (err) => {
     if (err) throw err
     console.log('> Ready on port ' + PORT)
   })
