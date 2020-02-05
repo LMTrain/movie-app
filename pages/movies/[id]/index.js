@@ -24,14 +24,16 @@ const Movie = (props) => {
                 <hr className="my-4" />
                     <p>{ movie.genre }</p>
                 <button className="btn btn-primary btn-lg mr-1" href="#" role="button">Learn more</button>
-                <button onClick={() => handleDeleteMovie(id)} className="btn btn-danger btn-lg " href="#" role="button">Delete</button>
-                <Link href="/movies/[id]/edit" as={`/movies/${id}/edit`}>
+                <button className="btn btn-danger btn-lg " href="/" role="button">Delete</button>
+                {/* <button onClick={() => handleDeleteMovie(id)} className="btn btn-danger btn-lg " href="#" role="button">Delete</button> */}
+                <Link>
+                {/* <Link href="/movies/[id]/edit" as={`/movies/${id}/edit`}> */}
                     <button
                         className="btn btn-warning btn-lg ml-1"
                         role="button">Edit</button>
                 </Link>
             </div>
-            <p>{ movie.longDesc} </p>
+            {/* <p>{ movie.longDesc} </p> */}
         </div>
     )
 }

@@ -148,10 +148,12 @@ const MovieCreateForm = (props) => {
                 </select>
             </div>
             <button
-                onClick={submitForm}
+                // onClick={submitForm}
                 type="button"
                 className="btn btn-primary">
-                    { props.submitButton || 'Create' }
+                    {/* { props.submitButton || 'Create' } */}
+                    { 'Create' }
+                    
             </button>
             <button
                 type="botton"
