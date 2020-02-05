@@ -6,7 +6,7 @@ export default async(req, res) => {
 
     if (req.method === 'POST') {
         const postData = JSON.parse(req.body)
-        console.log(postData)
+        // console.log(postData)
 
         return res.json({
             status: 'Saving Post to DB!',
