@@ -108,7 +108,7 @@ app.prepare().then(() => {
   //   // return res.json({message: 'Welcom to my website'})
   // })
 
-  const dev = process.env.NODE_ENV !== 'production';
+  
   const PORT = process.env.PORT || 3000;
 
   server.use(handle).listen(PORT, (err) => {
