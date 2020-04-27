@@ -1,7 +1,7 @@
 
 
-
 const Carousel = (props) => {
+
   const { images } = props
     return (
         <div id="carouselExampleIndicators" className="carousel slide my-4 ml-1" data-ride="carousel">

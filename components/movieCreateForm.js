@@ -3,8 +3,7 @@ import { useState, useEffect } from 'react'
 
 
 
-const MovieCreateForm = (props) => {
-    console.log(props)
+const MovieCreateForm = (props) => {   
     
     const [ isInitialDataLoaded, setIsInitialDataLoaded] = useState(false)
 
