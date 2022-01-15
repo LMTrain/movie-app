@@ -5,22 +5,7 @@ import MovieCreateForm from './movieCreateForm'
 import { createMovie } from '../actions'
 
 
-//Containment
-// const stateArray = useState(0)
-//const count = stateArray[0]
-// const setCount = stateArray[1]
 
-// const increment = () => {
-//     const newCount = count + 1
-//     setCount(newCount)
-//     // console.log("THIS IS COUNT", count)
-//     // console.log("THIS IS setCOUNT", setCount)
-// }
-
-// const decrement = () => {
-//     const newCount = count - 1
-//     setCount(newCount)
-// }
 const SideMenu = (props) => {
     const { categories } = props
     const router = useRouter()
