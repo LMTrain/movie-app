@@ -19,25 +19,6 @@ class EditMovie extends React.Component {
         })
     }
 
-    // state = {
-    //     movie: {
-    //         name: '',
-    //         description: '',
-    //         rating: '',
-    //         image: '',
-    //         cover: '',
-    //         longDesc: ''
-    //     }
-    // }
-
-    // componentDidMount() {
-    //     const { id } = this.props.query
-    //     getMovieById(id).then(movie => {
-    //         this.setState({movie})
-    //         console.log({movie})
-    //     })
-    // }
-
     render() {
         const { movie } = this.props
         return (
