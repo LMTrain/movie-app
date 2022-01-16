@@ -3,35 +3,7 @@ import Link from 'next/link'
 
 class MovieList extends React.Component {
 
-    // state = {
-    //     count: 0
-    // }
-
-    // constructor(props) {
-    //     super(props)
-    //     this.state = {
-    //         count: 0
-    //     }
-    //     // this.increment = this.increment.bind(this)
-    // }
-
-    // increment = () => {
-    //     // const count = this.state.count
-    //     const { count } = this.state
-
-    //     //VERY BAD
-    //     //this.state.count = count + 1
-    //     this.setState({
-    //         count: count + 1
-    //     })
-    // }
-
-    // decrement = () => {
-    //     const { count } = this.state       
-    //     this.setState({
-    //         count: count - 1
-    //     })
-    // }
+    
 
     
     shortenDescription = (text) => {
