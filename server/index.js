@@ -84,30 +84,7 @@ app.prepare().then(() => {
       // return res.json({message: `Deleting post of id: ${id}`})
     })
 
-    // server.get('/faq', (req, res) => {
-    //   res.send(`
-    //     <html>
-    //         <head></head>
-    //         <body><h1>Hello World!!!</h1>
-    //         </body>            
-    //     </html>
-    //   `)
-    // })
-
-  // we are handling all of the request comming to our server
-  //This is our ENDPOINT for --server.get--- for all ('*')
-  // server.get('*', (req, res) => {
-  //   // next.js is handling requests and providing pages where we are navigating to
-  //   return handle(req, res)
-  //   // return res.json({message: 'Welcom to my website'})
-  // })
-
-  // server.post('*', (req, res) => {
-  //   // next.js is handling requests and providing pages where we are navigating to
-  //   return handle(req, res)
-  //   // return res.json({message: 'Welcom to my website'})
-  // })
-
+    
   const dev = process.env.NODE_ENV !== 'production';
   const PORT = process.env.PORT || 3000;
 
